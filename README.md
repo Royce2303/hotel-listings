@@ -14,8 +14,23 @@ Ensure you have the following installed on your system:
 3. Git (for cloning the repository)
 
 ## Setup Instructions
-
 ### Clone the Repository
-```bash
-git clone https://github.com/Royce2303/hotel-listings.git
-cd hotel-listings
+1. git clone https://github.com/Royce2303/hotel-listings.git
+2. cd hotel-listings
+
+### Frontend:
+1. Navigate to hotel-spa folder using *cd hotel-spa*
+2. Install dependencies using *npm install*
+3. Run the frontend application using *npm start* (The frontend application will now be running on http://localhost:3000)
+
+### Backend:
+1. Navigate to the backend folder using *cd backend*
+2. Install dependencies using *dotnet restore*
+3. Run the frontend application using *dotnet run* (The frontend application will now be running on http://localhost:7213
+
+### Accessing the Application
+Open your browser and navigate to http://localhost:3000 to see the hotel listings.
+
+### Notes
+1. Make sure that both the frontend and backend applications are running simultaneously to view the full functionality of the application.
+2. If you encounter any issues with ports, ensure that the backend is running on the specified port, and the frontend is on port (3000).
